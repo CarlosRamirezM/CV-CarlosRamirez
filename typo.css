@@ -1,0 +1,33 @@
+h2 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: darkslategray;
+}
+
+h3 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: darkslategray;
+    font-size: larger;
+}
+
+p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: large;
+    color: black;    
+}
+
+#name {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+}
+
+.nav-link active {
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+}
+
+.accordion-item {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: medium;
+    color: black;   
+}
