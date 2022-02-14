@@ -73,22 +73,37 @@
     <div class="container-fluid p-2">
       <div class="row p-3">
         <h2 id="PersonalInfo">Personal Information</h2>
-        <main>
-          I'm a student of Sofware Engeneering at Los Andes University, currenly
-          coursing sixth semester. I a'm 18 years old and passionate about
-          information engeneering. I consider myself a quick lerner and I like
-          to take the leadership in teams, stimulating all the members to
-          participate actively and propose new ideas to the project. I speak
-          spanish, english and I'm currenly learning german, thecnically i;m A2
-          in that language. Some of my hobbies are training tenis, playing
-          football and listening to music, I listen almost all music genders.
-        </main>
-          <video src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4" controls>
-          <p>Your browser doesn't support HTML5 video. Here is a <a href="rabbit320.webm">link to the video</a> instead.</p> 
-        </video>
+        <div class="col-md-2 col-12"><img class="img-thumbnail profile" alt="Foto of Carlos Ramirez" src="media/CERM.jpg"></div>    
+        <div class="col-md-10 col-12">
+          <div class="row">
+            <main>
+              I'm a student of Sofware Engeneering at Los Andes University, currenly
+              coursing sixth semester. I a'm 18 years old and passionate about
+              information engeneering. I consider myself a quick lerner and I like
+              to take the leadership in teams, stimulating all the members to
+              participate actively and propose new ideas to the project. I speak
+              spanish, english and I'm currenly learning german, thecnically I'm at A2 level
+              in that language.
+            </main>
+          </div>       
+          <div class="row">
+            <main>
+              Some of my hobbies are training tennis and playing football. I've been playing tennis
+              since I was 8 years old, not continusly, because I gave it a break at 13 years old after I
+              broke my arm. I also love listening to music and I consider myself very open-minded to different genders.
+              For example, a friend of mine is producer and I love his music, here is a song of him.
+            </main>
+          </div>
+          <div class="row">
+            <audio controls controlslist="nodownload">
+              <source src="/media/O80.mp3" type="audio/ogg">
+              Your browser does not support the audio element.
+            </audio>
+          </div>
+        </div>       
       </div>
 
-      <div class="row p-3 p-3">
+      <div id="dExperience" class="row p-3 p-3">
         <div class="col-md-6 col-12">
           <h2 id="WorkExperience">Work Experience</h2>
           <h3>
@@ -96,10 +111,16 @@
             de los Andes - Bogotá, CO
           </h3>
           <ul>
-            <li> Tutored 30+ students who took Structural Math and Logic course. </li>
-            <li> Designed review tests for the course. </li>
+            <li>
+              Tutored 30+ students who took Structural Math and Logic course.
+            </li>
+            <li>Designed review tests for the course.</li>
           </ul>
-          <img id="testIcon" alt="Test icon" src="https://img.icons8.com/small/512/test-partial-passed.png">
+          <img
+            id="testIcon"
+            alt="Test icon"
+            src="https://img.icons8.com/small/512/test-partial-passed.png"
+          />
         </div>
         <div class="col-md-6 col-12">
           <h2 id="AcademicExperience">Academic Information</h2>
@@ -119,7 +140,7 @@
         </div>
       </div>
 
-      <div class="row p-3">
+      <div id="dProjects" class="row p-3">
         <h2 id="Projects">Projects</h2>
         <div class="accordion" id="accordionExample">
           <div class="accordion-item">
@@ -144,8 +165,9 @@
               <div class="accordion-body">
                 Hogarineitor is a web page develped for comparing prices of home
                 appliances in various shops. It waS developed using Django
-                (Phyton) and Scrapy, a Python library for web scrapping. Also, the
-                web page had a Telegram Bot, wich was developed using ChatterBot.
+                (Phyton) and Scrapy, a Python library for web scrapping. Also,
+                the web page had a Telegram Bot, wich was developed using
+                ChatterBot.
               </div>
             </div>
           </div>
@@ -195,8 +217,8 @@
               data-bs-parent="#accordionExample"
             >
               <div class="accordion-body">
-                Dranky was a robot that was intended to move thanks to a set of 3D
-                printed wheels from table to table and, depending on the user
+                Dranky was a robot that was intended to move thanks to a set of
+                3D printed wheels from table to table and, depending on the user
                 input, serve a drink of their election. Some of the technologies
                 used for this robot were Arduino and Raspberry Pi.
               </div>
@@ -223,40 +245,35 @@
             >
               <div class="accordion-body">
                 TutorManager was a personal project that wes intended to help me
-                to organise income from tutories. It was my first project and was
-                developed entierly in Java.
+                to organise income from tutories. It was my first project and
+                was developed entierly in Java.
               </div>
             </div>
           </div>
         </div>
-            </div>
       </div>
+    </div>
 
     <footer>
       <div id="footer" class="container-fluid p-3">
-        <h3> Contact me</h3>
-        <div class="row">
-          <div class="col-1"> <a href=""> <img class="contact" alt="E-mail logo" src="media/correo.png"> </a> </div>
-          <div class="col-1"> <a href="https://github.com/CarlosRamirezM"> <img class="contact" alt="E-mail logo" src="media/github.png"> </a> </div>
-          <div class="col-1"> <a href="https://wa.me/573208086973"> <img class="contact" alt="E-mail logo" src="media/whatsapp.png"> </a> </div>
+        <h3>Contact me</h3>
+        <div class="row">          
+          <div class="col-1">
+            <a href="">
+              <img class="img-fluid contact" alt="E-mail logo" src="media/correo.png" />
+            </a>
+          </div>
+          <div class="col-1">
+            <a href="https://github.com/CarlosRamirezM">
+              <img class="img-fluid contact" alt="GitHub logo" src="media/github.png" />
+            </a>
+          </div>
+          <div class="col-1">
+            <a href="https://wa.me/573208086973">
+              <img class="img-fluid contact" alt="WhatsApp logo" src="media/whatsapp.png" />
+            </a>
+          </div>
         </div>
-        <ul>
-          <li><strong>Country/City:</strong> Bogota, Colombia</li>
-          <li><strong>E-mail:</strong> c.ramirezm@uniandes.edu.co</li>
-          <li><strong>Moblie:</strong> (+57) 3208086973</li>
-          <li>
-            <strong>GitHub:</strong>
-            <a href="https://github.com/CarlosRamirezM">
-              github.com/CarlosRamirezM
-            </a>
-          </li>
-          <li>
-            <strong>Linkedin:</strong>
-            <a href="https://github.com/CarlosRamirezM">
-              github.com/CarlosRamirezM
-            </a>
-          </li>
-        </ul>
       </div>
     </footer>
 

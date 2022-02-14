@@ -2,6 +2,10 @@ body {
     background-color: lightcyan;
 }
 
+main {
+    padding: 10px;
+}
+
 h2 {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: darkslategray;
@@ -17,6 +21,11 @@ p {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: large;
     color: black;    
+}
+
+audio {
+    position: relative;
+    left: 50 px;
 }
 
 .nav-link {
@@ -43,6 +52,11 @@ p {
 .contact {
     height: 50px;
     width: 50px;
+}
+
+.profile {
+    align-self: center;
+    align-items: center;
 }
 
 #name {
