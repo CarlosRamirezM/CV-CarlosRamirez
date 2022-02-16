@@ -38,6 +38,10 @@ aside {
     color: black;   
 }
 
+video {
+
+    justify-content: center;
+}
 
 .nav-link {
     font-family: 'Brush Script MT', cursive, serif;
