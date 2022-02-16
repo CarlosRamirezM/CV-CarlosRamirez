@@ -7,7 +7,7 @@ main {
 }
 
 h2 {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: 'Brush Script MT', cursive, serif;
     color: darkslategray;
 }
 
@@ -28,10 +28,20 @@ audio {
     left: 50 px;
 }
 
-.nav-link {
+video {    
+    align-self: center;    
+}
 
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: medium;
+aside {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: small;
+    color: black;   
+}
+
+
+.nav-link {
+    font-family: 'Brush Script MT', cursive, serif;
+    font-size: larger;    
 }
 
 .accordion-item {
@@ -41,7 +51,12 @@ audio {
 }
 
 .container-fluid {
-    background-color: lightcyan;
+    background-color: white;
+}
+
+.accordion-header {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: large;
 }
 
 .accordion-button {
@@ -60,16 +75,16 @@ audio {
 }
 
 #name {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: large;
+    font-family: 'Brush Script MT', cursive, serif;
+    font-size: x-large;
 }
 
 #navBar {
-    background-color: lavender;
+    background-color: rgba(248, 248, 11, 0.911);
 }
 
 #footer {
-    background-color: lavender;
+    background-color: rgba(248, 248, 11, 0.911);
 }
 
 #testIcon {
