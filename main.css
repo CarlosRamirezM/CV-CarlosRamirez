@@ -3,18 +3,18 @@ main {
 }
 
 h2 {
-    font-family: 'Brush Script MT', cursive, serif;
+    font-family: 'Helvetica', cursive, serif;
     color: darkslategray;
 }
 
 h3 {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: darkslategray;
     font-size: larger;
 }
 
 p {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: large;
     color: black;    
 }
@@ -29,7 +29,7 @@ video {
 }
 
 aside {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: small;
     color: black;   
 }
@@ -40,12 +40,12 @@ video {
 }
 
 .nav-link {
-    font-family: 'Brush Script MT', cursive, serif;
+    font-family: 'Helvetica', cursive, serif;   
     font-size: larger;    
 }
 
 .accordion-item {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: medium;
     color: black;   
 }
@@ -55,7 +55,7 @@ video {
 }
 
 .accordion-header {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: large;
 }
 
@@ -79,7 +79,7 @@ video {
 }
 
 #name {
-    font-family: 'Brush Script MT', cursive, serif;
+    font-family: 'Helvetica', cursive, serif;
     font-size: x-large;
 }
 
